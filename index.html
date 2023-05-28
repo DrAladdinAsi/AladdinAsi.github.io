@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="travel.css">
+    <title>Travel</title>
+</head>
+<body>
+
+    <nav class="navbar">
+          <div class="logo"><h2>Addventure</h2></div>
+          <ul class="list">
+            <li><a href="" class="active">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Help</a></li>
+            <li><a href="" class="Bock">Bock Now</a></li>
+            
+          </ul>
+          <img src="image/navicom.png" alt="" class="navicon">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>See the colorful world</h2>
+            <div class="line"></div>
+            <h3>the gift of nature</h3>
+            <a href="" class="link">learn more</a>
+
+        </div> 
+    </header>
+
+    <section class="events">
+        <div class="title"><h2>Upcoming Events</h2></div>
+                <div class="line"></div>
+                
+        <div class="row">
+           
+            <div class="col">
+                <img src="image/desert.jpg" alt="">
+                <h4>Desert camp</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptatem enim non doloremque! Commodi, esse!</p>
+                
+                <a href="" class="link">learn more</a>
+            </div>
+
+            <div class="col">
+                <img src="image/desert.jpg" alt="">
+                <h4>Arbia desert camp</h4>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempore voluptatem enim non doloremque! Commodi, esse!</p>
+                
+                <a href="" class="link">learn more</a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="explore">
+        <div class="content">
+        <h2>Explore the world</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae ex perferendis, quis et explicabo totam? Quaerat tempora obcaecati at expedita!</p>
+        <a href="" class="link">learn more</a>
+
+       </div>
+    </section>
+
+
+    <section class="tour">
+        <div class="row">
+            <div class="col ">
+                
+                    <h2>Lorem, ipsum.</h2>
+                    <div class="line"></div>
+                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, reprehenderit debitis corporis ducimus voluptas temporibus, quaerat minima placeat quod explicabo repellat sunt fuga, est impedit quas dolorum at? Inventore, sapiente.</p>
+                    
+                     <div class="col-tour">
+                     <a href="#" class="link">learn more</a></div>
+                    </div>
+            <div class="col">
+                <div class="image-gallary">
+
+                    <img src="image/desert.jpg" alt="">
+
+
+
+                </div>
+            </div>
+            
+        </div>
+
+        
+      
+    </section>
+
+    <section class="footer">
+        <p>This website programmed By Aladdin Asi</p>
+        <p>Homs Syria 27 may 2023 @c</p>
+
+    </section>
+            <script>
+                    const menuBtn = document.querySelector('.navicon')
+                    const navlinks = document.querySelector('.list')
+
+
+                    menuBtn.addEventListener('click',()=>{
+
+                    navlinks.classList.toggle('mobile-menu')
+                    })  
+            </script>
+</body>
+</html>
